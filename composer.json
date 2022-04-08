@@ -1,0 +1,24 @@
+{
+    "name": "object42/enum",
+    "description": "object42/enum",
+    "license": "BSD-3-Clause",
+    "autoload": {
+        "psr-4": {
+            "object42\\Enum\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "object42\\Enum\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
