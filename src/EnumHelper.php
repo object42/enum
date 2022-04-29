@@ -32,6 +32,6 @@ trait EnumHelper
 
         $key = $cases[0] instanceof BackedEnum ? 'value' : 'name';
 
-        return array_column($cases, $key);
+        return array_column($cases, $key, 'name');
     }
 }

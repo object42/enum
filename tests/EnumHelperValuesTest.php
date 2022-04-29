@@ -24,9 +24,9 @@ class EnumHelperValuesTest extends TestCase
     public function enumDataProvider(): array
     {
         return [
-            [BasicEnum::values(), ['ONE', 'TWO']],
-            [IntEnum::values(), [1, 2]],
-            [StringEnum::values(), ['one', 'two']],
+            [BasicEnum::values(), ['ONE' => 'ONE', 'TWO' => 'TWO']],
+            [IntEnum::values(), ['ONE' => 1, 'TWO' => 2]],
+            [StringEnum::values(), ['ONE' => 'one', 'TWO' => 'two']],
         ];
     }
 

@@ -9,7 +9,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "object42\\Enum\\Tests\\": "tests/"
+            "object42\\Enum\\Tests\\": "tests"
         }
     },
     "config": {
